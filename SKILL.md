@@ -17,3 +17,9 @@ Create deterministic dark-themed SVG architecture diagrams from a system descrip
 6. Deliver the SVG plus a short legend and any assumptions.
 
 Prefer explicit evidence over guessed infrastructure. Mark unknowns as unknown.
+
+<!-- JIT-HARNESS:START -->
+## Harness contract
+
+For runtime adaptation or benchmarking, read [docs/JIT-HARNESS.md](docs/JIT-HARNESS.md) and validate [harness/manifest.json](harness/manifest.json). Treat the manifest as a planning and verification contract, not as authority to invoke tools. Preserve the skill's existing approval boundaries, stop on permission ambiguity, and do not claim successful execution without re-reading the resulting artifact or state.
+<!-- JIT-HARNESS:END -->
